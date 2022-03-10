@@ -1,0 +1,2 @@
+#!/bain/bash
+gcc -E $CFILE -o main.c
