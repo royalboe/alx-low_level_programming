@@ -10,7 +10,7 @@
  */
 void print_buffer(char *b, int size)
 {
-	int  i, j;
+	int i, j;
 	char b_str[11], b_hex[26];
 
 	for (i = 0; i < size; i++)
@@ -23,15 +23,15 @@ void print_buffer(char *b, int size)
 			{
 				if ((j + i) >= size)
 					if ((j % 2) == 0)
-						fprintf(b_hex, "%s   ", b_hex);
+						sprintf(b_hex, "%s   ", b_hex);
 					else
-						fprintf(b_hex, "%s  ", b_hex);
+						sprintf(b_hex, "%s  ", b_hex);
 				else
 				{
 					if ((j % 2) == 0)
-						fprintf(b_hex, "%s %02x", b_hex, b[i + j]);
+						sprintf(b_hex, "%s %02x", b_hex, b[i + j]);
 					else
-						fprintf(b_hex, "%s%02x", b_hex, b[i + j]);
+						sprintf(b_hex, "%s%02x", b_hex, b[i + j]);
 					b_str[j] = b[i + j] < 32 ? '.' : b[i + j];
 					b_str[j + 1] = '\0';
 				}
