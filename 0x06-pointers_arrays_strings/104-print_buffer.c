@@ -23,15 +23,15 @@ void print_buffer(char *b, int size)
 			{
 				if ((j + i) >= size)
 					if ((j % 2) == 0)
-						sprintf(b_hex, "%s   ", b_hex);
+						fprintf(b_hex, "%s   ", b_hex);
 					else
-						sprintf(b_hex, "%s  ", b_hex);
+						fprintf(b_hex, "%s  ", b_hex);
 				else
 				{
 					if ((j % 2) == 0)
-						sprintf(b_hex, "%s %02x", b_hex, b[i + j]);
+						fprintf(b_hex, "%s %02x", b_hex, b[i + j]);
 					else
-						sprintf(b_hex, "%s%02x", b_hex, b[i + j]);
+						fprintf(b_hex, "%s%02x", b_hex, b[i + j]);
 					b_str[j] = b[i + j] < 32 ? '.' : b[i + j];
 					b_str[j + 1] = '\0';
 				}
