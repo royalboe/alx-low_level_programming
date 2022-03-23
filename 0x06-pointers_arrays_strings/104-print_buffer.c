@@ -1,45 +1,43 @@
 #include "main.h"
-#include <stdlib.h>
-#include <string.h>
 
 /**
- * print_buffer - Prints a buffer.
- * @b: The buffer
- * @size: The size
- * Return: none
+ * print_buffer - prints string buffer
+ * @b: the buffer
+ * @size: size of buffer to print
+ *
+ * Return: void
  */
 void print_buffer(char *b, int size)
 {
-	int i, j;
-	char b_str[11], b_hex[26];
+	int o = 0, i, j;
 
-	for (i = 0; i < size; i++)
+	if (size <= 0)
 	{
-		b_hex[0] = '\0';
-		if ((i % 10) == 0)
-		{
-			printf("%08x:", i);
-			for (j = 0; j < 10; j++)
-			{
-				if ((j + i) >= size)
-					if ((j % 2) == 0)
-						sprintf(b_hex, "%s   ", b_hex);
-					else
-						sprintf(b_hex, "%s  ", b_hex);
-				else
-				{
-					if ((j % 2) == 0)
-						sprintf(b_hex, "%s %02x", b_hex, b[i + j]);
-					else
-						sprintf(b_hex, "%s%02x", b_hex, b[i + j]);
-					b_str[j] = b[i + j] < 32 ? '.' : b[i + j];
-					b_str[j + 1] = '\0';
-				}
-			}
-			printf("%s %s", b_hex, b_str);
-			printf("\n");
-		}
-	}
-	if (size == 0)
 		printf("\n");
+		return;
+	}
+	while (o < size)
+	{
+		j = size - o < 10 ? size - o : 10;
+		printf("%08x: ", o);
+		for (i = 0; i < 10; i++)
+		{
+			if (i < j)
+				printf("%02x", *(b + o + i));
+			else
+				printf("  ");
+			if (i % 2)
+				printf(" ");
+		}
+		for (i = 0; i < j; i++)
+		{
+			int c = *(b + o + i);
+
+			if (c < 32 || c > 132)
+				c = '.';
+			printf("%c", c);
+		}
+		printf("\n");
+		o += 10;
+	}
 }
