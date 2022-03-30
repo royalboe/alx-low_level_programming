@@ -12,4 +12,6 @@ Directories | Description
 [0x04-more_functions_nested_loops](./0x04-more_functions_nested_loops) | Indepth on functions and nested loops in C
 [0x05-pointers_arrays_strings](./0x05-pointers_arrays_strings) | Introduction to pointers, arrays and strings in C
 [0x06-pointers_arrays_strings](./0x06-pointers_arrays_strings) | pointers, arrays and strings in C
+[0x07-pointers_arrays_strings](./0x07-pointers_arrays_strings) | more pointers arrays and strings in C
+[0x08-recursion](./0x08-recursion) | Recursions in C
 
