@@ -8,5 +8,6 @@ Contains recursive functions
 - [2-strlen_recursion.c](./2-strlen_recursion) is a function thst returns the length of a string.
 - [3-factorial.c](./3-factorial.c) is a function that returns the factorial of a given number.
 - [4-pow_recursion.c](./4-pow_recursion.c) is a function that works with recursion.
+- [5-sqrt_recursion.c](./5-sqrt_recursion.c) is a function that returns a natural square root of a number.
 
 
