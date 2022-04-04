@@ -1,51 +1,45 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
-*argstostr-Function that concatenates all the arguments of your program
-*
-*@ac: is an int value
-*@av: is a char value
-*
-*Return: Always 0
-*/
+ * argstostr - Concatenates all arguments of the program into a string;
+ *             arguments are separated by a new line in the string.
+ * @ac: The number of arguments passed to the program.
+ * @av: An array of pointers to the arguments.
+ *
+ * Return: If ac == 0, av == NULL, or the function fails - NULL.
+ *         Otherwise - a pointer to the new string.
+ */
 char *argstostr(int ac, char **av)
 {
-	char *constring;
-	int i, strlen, j;
-	int  k = 0;
+	char *str;
+	int arg, byte, index, size = ac;
 
 	if (ac == 0 || av == NULL)
-	{
 		return (NULL);
+
+	for (arg = 0; arg < ac; arg++)
+	{
+		for (byte = 0; av[arg][byte]; byte++)
+			size++;
 	}
 
-	for (i = 0; i < ac; i++)
-	{
-		for (j = 0; av[i][j] != '\0'; j++)
-		{
-			strlen++;
-		}
-		strlen++;
-	}
+	str = malloc(sizeof(char) * size + 1);
 
-	constring = malloc((sizeof(char)) * (strlen + 1));
-
-	if (constring == NULL)
-	{
+	if (str == NULL)
 		return (NULL);
-	}
-	for (i = 0; i < ac; i++)
+
+	index = 0;
+
+	for (arg = 0; arg < ac; arg++)
 	{
-		for (j = 0; av[i][j] != '\0'; j++)
-		{
-			constring[k] = av[i][j];
-				k++;
-		}
-		constring[k] = '\n';
-		k++;
+		for (byte = 0; av[arg][byte]; byte++)
+			str[index++] = av[arg][byte];
+
+		str[index++] = '\n';
 	}
 
-	return (constring);
+	str[size] = '\0';
+
+	return (str);
 }
