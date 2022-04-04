@@ -16,5 +16,5 @@ Directories | Description
 [0x08-recursion](./0x08-recursion) | Recursions in C
 [0x09-static_libs](./0x09-static_libraries) | Static libraries
 [0x0A-argc_argv](./0x0A-argc_argv) | Introduction to main arguments
-[0x0B-malloc_free](./0x0B-malloc_free) | Introduction to malloc and free
+[0x0B-malloc_free](./0x0B-malloc_free) | Introduction to Dynamic memory allocation
 
