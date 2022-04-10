@@ -4,7 +4,7 @@
 This project is the first C project as part of the ALX School curriculum, and covers the very basics of compilation and C.
 ### Files
 
-- [File 0-preprocessor](0x00-hello_world/0-preprocessor) is a script that runs a C file through the preprocessor and save the result into another file.
+- [File 0-preprocessor](./0-preprocessor) is a script that runs a C file through the preprocessor and save the result into another file.
 
 - [File 1-compiler](./1-compiler) is a script that compiles a C file but does not link.
 
