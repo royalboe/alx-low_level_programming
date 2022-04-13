@@ -1,32 +1,64 @@
 #include <stdio.h>
-#include "3-calc.h"
 #include <stdlib.h>
+#include "3-calc.h"
 
 /**
-*get_op_func - function that that selects the correct operation
+*op_add - function that return the sum of a and b
 *
-*@s: selects the correct function to perform the operation asked by the user
-*Return: a pointer to the function that corresponds to the operator
+*@a: int value
+*@b: int value
+*Return: Sum of of two int
 */
-
-int (*get_op_func(char *s))(int, int)
+int op_add(int a, int b)
 {
-	op_t ops[] = {
-		{"+", op_add},
-		{"-", op_sub},
-		{"*", op_mul},
-		{"/", op_div},
-		{"%", op_mod},
-		{NULL, NULL}
-		};
-	int n = 0;
+	return (a + b);
+}
 
-	while (n < 5)
-	{
-		if (ops[n].op[0] == s[0])
-			return (ops[n].f);
-		n++;
-	}
-	return (NULL);
+/**
+*op_sub - function that return the sub of a and b
+*
+*@a: int value
+*@b: int value
+*Return: Sub of of two int
+*/
+int op_sub(int a, int b)
+{
+	return (a - b);
+}
 
+/**
+*op_mul - function that return the mul of a and b
+*
+*@a: int value
+*@b: int value
+*Return: Mul of of two int
+*/
+int op_mul(int a, int b)
+{
+	return (a * b);
+}
+
+/**
+*op_div - function that return the div of a and b
+*
+*@a: int value
+*@b: int value
+*Return: div of of two int
+*/
+int op_div(int a, int b)
+{
+	return (a / b);
+}
+
+/**
+*op_mod - function that return the mod of a and b
+*
+*@a: int value
+*@b: int value
+*Return: mod of of two int
+*/
+int op_mod(int a, int b)
+{
+
+	return (a % b);
 }
