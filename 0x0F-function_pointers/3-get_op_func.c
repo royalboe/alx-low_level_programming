@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-*get_op_func - function that that selects the correct operation
+*get_op_func - function that selects the correct operation
 *
 *@s: selects the correct function to perform the operation asked by the user
 *Return: a pointer to the function that corresponds to the operator
