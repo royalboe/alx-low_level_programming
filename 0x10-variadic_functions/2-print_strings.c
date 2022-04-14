@@ -1,40 +1,31 @@
 #include <stdio.h>
 #include <stdarg.h>
-#include "variadic_functions.h"
 
 /**
-*print_strings- function that prints strings, followed by a new line.
-*
-*@separator: char value
-*@n:Int value
-*
-*Return: Always 0
-*/
+ * print_strings - prints strings, followed by a new line
+ * @separator: delimiter
+ * @n: n args
+ * Return: void
+ */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	va_list args;
-	unsigned int i;
-	char *str;
+	va_list arguments;
+	unsigned int s;
+	char *clone;
 
-	/*initialize valist for num number or argument */
-	va_start(args, n);
+	va_start(arguments, n);
 
-	/* access all the arguments assigned to valist */
-	for (i = 0; i < n; i++)
+	for (s = 0; s < n; s++)
 	{
-		str = va_arg(args, char *);
-		if (str == NULL)
-			printf("(nil)");
+		clone = va_arg(arguments, char*);
+		if (clone != NULL)
+			printf("%s", clone);
 		else
-			printf("%s", str);
-
-		if (i != (n - 1) && separator != NULL) /* n -1 is for the comma */
-		{
+			printf("%p", clone);
+		if (separator != NULL && s < n - 1)
 			printf("%s", separator);
-		}
 	}
 	printf("\n");
-	/*clean memory reserved for valist */
-	va_end(args);
-
+	va_end(arguments);
 }
+
