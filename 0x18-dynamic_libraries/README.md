@@ -24,7 +24,6 @@
 - [3. Code injection: Win the Giga Millions!](./101-make_me_win.sh)
 
 
-
 ## Author
 
 * Ayomide Johnson Salami - [Ayomide](https://github.com/Royalboe)
