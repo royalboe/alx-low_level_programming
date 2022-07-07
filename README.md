@@ -1,6 +1,12 @@
 # ALX Low Level Programming In C
 ## Description
+ALX-curriculum for low-level programming
+
+---
+
 Programming in C
+
+---
 
 ## Table of contents
 Directories | Description
@@ -20,4 +26,24 @@ Directories | Description
 [0x0C-more_malloc_free](./0x0C-more_malloc_free) | Dynamic memory allocation in C indepth
 [0x0D-preprocessor](./0x0D-preprocessor) | Introduction to C language compilation
 [0x0E-structures_typedef](./0x0E-structures_typedef) | Intoduction to structures in C
-[0x0F]
+[0x0F-function_pointers](./0x0F-function_pointers) | Functions that point to other functions
+[0x10-variadic_functions](./0x10-variadic_functions) | Functions with multiple arguments
+[0x12-singly_linked_lists](./0x12-singly_linked_lists) | Data Structures: Introduction to Singly Linked Lists
+[0x13-more_singly_linked_lists](./0x13-more_singly_linked_lists) | More on Singly Linked List
+[0x14-bit_manipulation](./0x14-bit_manipulation) | Bit manipulation in C
+[0x15-file_io](./0x15-file_io) | File Operations
+[0x17-doubly_linked_lists](./0x17-doubly_linked_lists) | Data Structire: Doubly Linked Lists
+[0x18-dynamic_libraries](./0x18-dynamic_libraries) | Dynamic Libraries
+
+#
+
+[![GitHub issues](https://img.shields.io/github/issues/Royalboe/alx-low_level_programming)](https://github.com/Royalboe/alx-low_level_programming/issues)  [![GitHub forks](https://img.shields.io/github/forks/Royalboe/alx-low_level_programming)](https://github.com/Royalboe/alx-low_level_programming/network)  [![GitHub stars](https://img.shields.io/github/stars/Royalboe/alx-low_level_programming)](https://github.com/Royalboe/alx-low_level_programming/stargazers)
+
+![GitHub watchers](https://img.shields.io/github/watchers/Royalboe/alx-low_level_programming?style=social)
+
+
+
+---
+
+## Author
+ Salami Ayomide Johnson - [Ayomide](https://github.com/Royalboe)
