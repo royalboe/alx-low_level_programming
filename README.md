@@ -35,6 +35,7 @@ Directories | Description
 [0x17-doubly_linked_lists](./0x17-doubly_linked_lists) | Data Structire: Doubly Linked Lists
 [0x18-dynamic_libraries](./0x18-dynamic_libraries) | Dynamic Libraries
 
+
 #
 
 [![GitHub issues](https://img.shields.io/github/issues/Royalboe/alx-low_level_programming)](https://github.com/Royalboe/alx-low_level_programming/issues)  [![GitHub forks](https://img.shields.io/github/forks/Royalboe/alx-low_level_programming)](https://github.com/Royalboe/alx-low_level_programming/network)  [![GitHub stars](https://img.shields.io/github/stars/Royalboe/alx-low_level_programming)](https://github.com/Royalboe/alx-low_level_programming/stargazers)
