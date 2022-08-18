@@ -34,6 +34,7 @@ Directories | Description
 [0x15-file_io](./0x15-file_io) | File Operations
 [0x17-doubly_linked_lists](./0x17-doubly_linked_lists) | Data Structire: Doubly Linked Lists
 [0x18-dynamic_libraries](./0x18-dynamic_libraries) | Dynamic Libraries
+[0x18-hash_tables](./0x19-hash_tables) | Hash Tables
 
 
 #
