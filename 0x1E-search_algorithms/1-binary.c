@@ -14,7 +14,7 @@ int binary_search(int *array, size_t size, int value)
 {
 	if (!array || size == 0)
 		return (-1);
-	while 
+
 	return (binary_helper(array, value, 0, size -1));
 }
 
@@ -31,7 +31,7 @@ int binary_search(int *array, size_t size, int value)
 int binary_helper(int *array, int value, size_t lo, size_t hi)
 {
 	size_t mid;
-	array_print(array, lo, hi);
+	print_array(array, lo, hi);
 	if (hi == lo && array[lo] !=value)
 		return (-1);
 
@@ -46,7 +46,7 @@ int binary_helper(int *array, int value, size_t lo, size_t hi)
 }
 
 /**
- * array_print : prints the array
+ * print_array : prints the array
  * @array : array to be printed
  * @lo : index of the low bound
  * @hi : index of the high bound
