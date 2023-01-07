@@ -37,6 +37,8 @@ Directories | Description
 [0x1A-hash_tables](./0x1A-hash_tables) | Hash Tables
 
 
+
+
 #
 
 [![GitHub issues](https://img.shields.io/github/issues/Royalboe/alx-low_level_programming)](https://github.com/Royalboe/alx-low_level_programming/issues)  [![GitHub forks](https://img.shields.io/github/forks/Royalboe/alx-low_level_programming)](https://github.com/Royalboe/alx-low_level_programming/network)  [![GitHub stars](https://img.shields.io/github/stars/Royalboe/alx-low_level_programming)](https://github.com/Royalboe/alx-low_level_programming/stargazers)
