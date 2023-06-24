@@ -1,5 +1,7 @@
 # ALX Low Level Programming In C
+
 ## Description
+
 ALX-curriculum for low-level programming
 
 ---
@@ -9,6 +11,7 @@ Programming in C
 ---
 
 ## Table of contents
+
 Directories | Description
 ----------- | -----------
 [0x00-hello_world](./0x00-hello_world) | Introduction to the basics of C
@@ -35,11 +38,6 @@ Directories | Description
 [0x17-doubly_linked_lists](./0x17-doubly_linked_lists) | Data Structire: Doubly Linked Lists
 [0x18-dynamic_libraries](./0x18-dynamic_libraries) | Dynamic Libraries
 [0x1A-hash_tables](./0x1A-hash_tables) | Hash Tables
-
-
-
-
-#
 
 [![GitHub issues](https://img.shields.io/github/issues/Royalboe/alx-low_level_programming)](https://github.com/Royalboe/alx-low_level_programming/issues)  [![GitHub forks](https://img.shields.io/github/forks/Royalboe/alx-low_level_programming)](https://github.com/Royalboe/alx-low_level_programming/network)  [![GitHub stars](https://img.shields.io/github/stars/Royalboe/alx-low_level_programming)](https://github.com/Royalboe/alx-low_level_programming/stargazers)
 
