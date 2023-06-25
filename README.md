@@ -43,10 +43,8 @@ Directories | Description
 
 ![GitHub watchers](https://img.shields.io/github/watchers/Royalboe/alx-low_level_programming?style=social)
 
-
-
 ---
 
 ## Author
- Salami Ayomide Johnson - [Ayomide](https://github.com/Royalboe)
 
+ Salami Ayomide Johnson - [Ayomide](https://github.com/Royalboe)
