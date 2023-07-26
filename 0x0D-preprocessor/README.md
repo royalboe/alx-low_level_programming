@@ -28,4 +28,3 @@ practicing implementing my own and include-guarding header files.
 * **4. SUM**
   * [4-sum.h](./4-sum.h): Header file that defines a function-like macro `SUM(x, y)`
   that computes the sum of the numbers `x` and `y`.
-
