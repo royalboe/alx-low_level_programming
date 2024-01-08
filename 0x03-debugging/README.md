@@ -1,6 +1,11 @@
 # Debugging
+
 ## Description
+
 Debugging in C
+
+## Files
+
 - [File 0-main.c](./0-main.c) 
 
 - [File 1-main.c](./1-main.c)
